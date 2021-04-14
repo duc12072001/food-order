@@ -22,9 +22,6 @@
         die('Kết nối không thành công'. mysqli_connect_error($conn));
     }
     echo 'Kết Nối Thành Công';
-    $db_select = mysqli_select_db($conn, DB_NAME) or die(mysqli_error()); //SElecting Database
-
-
 ?>
 
 
