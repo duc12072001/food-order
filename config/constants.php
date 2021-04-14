@@ -17,11 +17,6 @@
     define('DB_NAME', 'food-order');
     
     $conn = mysqli_connect($db['server'], $db['username'], $db['password'], $db['dbname']);
-
-    if(!$conn) {
-        die('Kết nối không thành công'. mysqli_connect_error($conn));
-    }
-    echo 'Kết Nối Thành Công';
 ?>
 
 
